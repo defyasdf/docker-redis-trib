@@ -7,7 +7,7 @@ RUN apk-install \
   ruby-dev \
   ruby-rdoc \
   ruby-irb \
-  && gem install redis
+  && gem install redis -v 3.3.3
 
 
 RUN wget http://download.redis.io/redis-stable/src/redis-trib.rb && \
